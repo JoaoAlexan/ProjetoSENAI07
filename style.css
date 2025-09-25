@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(white,grey,black);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+
+h2{
+    color:rgb(6, 80, 145);
+    text-align:center;
+      border-bottom: 2px solid rgb(6, 80, 145); 
+  padding-bottom: 5px; 
+  margin-bottom: 15px; 
+}
+
+.container{
+    overflow:auto;
+}
+
+.Sobre{
+    float:left;
+    background-color:rgb(255, 255, 255);
+    border: 5px solid rgb(0, 12, 14);
+    width: 45%;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.Habilidades{
+    float:right;
+    background-color:white;
+    border: 5px solid black;
+    width: 45%;
+    height: 250px;
+    box-sizing:border-box;
+}
+
+.Exp{
+    float:left;
+    background-color:white;
+    border: 5px solid black;
+    width: 45%;
+    height: 250px;
+    box-sizing:border-box;
+    margin-top: 100px;
+}
+
+.HE{
+    float:right;
+    background-color:white;
+    border: 5px solid black;
+    width: 45%;
+    height: 250px;
+    box-sizing:border-box;
+    margin-top: 100px;
+}
+
+.Cont{
+    margin:0 auto;
+    background-color:white;
+    border: 5px solid black;
+    width:80%;
+    height: 200px;
+    box-sizing:border-box;
+    margin-top: 100px;
+}
+
+.Cont a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: #00a0eb; /* Cor do LinkedIn */
+    color: rgb(255, 255, 255);
+    padding: 30px 150px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
